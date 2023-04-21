@@ -18,7 +18,7 @@ const SearchResults = () => {
   };
   useEffect(() => {
     getVideos();
-  }, []);
+  }, [params]);
   //   console.log(videos)
   return (
     <div className="flex flex-col justify-center items-center mt-20 bg-gray-900 w-full overflow-x-hidden">

@@ -2,7 +2,6 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const SearchCard = ({ info }) => {
-  console.log(info);
   const { snippet } = info;
   const { channelTitle, title, thumbnails, description } = snippet;
 

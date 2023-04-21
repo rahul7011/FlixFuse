@@ -10,6 +10,7 @@ import SearchResults from "./components/SearchResults";
 import { useMediaQuery } from "react-responsive";
 import Error from "./components/Error";
 import NotExist from "./components/NotExist";
+import Profile from "./components/Profile";
 
 const appRouter = createBrowserRouter([
   {
@@ -24,11 +25,15 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: (<MainContainer />),
+        element: <MainContainer />,
       },
       {
         path: "/watch",
         element: <WatchPage />,
+      },
+      {
+        path: "/profile",
+        element: <Profile />,
       },
       {
         path: "results",

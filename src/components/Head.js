@@ -99,9 +99,11 @@ const Head = () => {
           )}
         </div>
       </div>
+      <Link to="/profile">
       <div className="col-span-1">
         <img className="h-8 my-3" alt="user" src={user}></img>
       </div>
+      </Link>
     </div>
   );
 };

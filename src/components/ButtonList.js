@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const list = [
   "All",
@@ -24,9 +25,11 @@ const list = [
 const ButtonList = () => {
   return (
     <div className="flex overflow-x-auto w-full bg-gray-900">
-      {list.map((val) => {
-        return <Button name={val} key={val}/>;
-      })}
+      {list.map((val) => (
+        <Link to={"results?v=" + val} key={val}>
+          <Button name={val} key={val} />
+        </Link>
+      ))}
     </div>
   );
 };

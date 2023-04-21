@@ -195,3 +195,13 @@ export const commentsData = [
     ],
   },
 ];
+export const Explore = [
+  "Music",
+  "Sports",
+  "Gaming",
+  "Fashion",
+  "Learning",
+  "News",
+  "Coding",
+  "Funny",
+];
