@@ -1,6 +1,6 @@
 export const Youtube_Videos_Api = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${process.env.REACT_APP_API_KEY}`;
 export const Youtube_Search_Api =
-  "https://c-xoyf.onrender.com/https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+  "https://naughty-rose-sweatsuit.cyclic.app/suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 export const YOUTUBE_VIDEO_SEARCH_RESULTS = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&type=video&key=${process.env.REACT_APP_API_KEY}&q=`;
 export const Offset_Live_Chat = 25;
